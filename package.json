@@ -1,0 +1,31 @@
+{
+  "name": "briteask",
+  "version": "1.0.0",
+  "description": "Internal Question & Answers for IWS Staff",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zarad1993/BriteOverflow.git"
+  },
+  "author": "Mohammad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zarad1993/BriteOverflow/issues"
+  },
+  "homepage": "https://github.com/Zarad1993/BriteOverflow#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "mysql": "latest",
+    "mysql2": "^1.3.5",
+    "sequelize": "^4.33.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.0"
+  }
+}
